@@ -15,7 +15,7 @@ function Testimonial({ userReviews }) {
 		}
 	}
 	function rightClickHandler() {
-		if (index + 1 > userReviews.length) {
+		if (index + 1 > userReviews.length-1) {
 			setIndex(0);
 		} else {
 			setIndex(index + 1);
